@@ -18,5 +18,5 @@ app.use(express.json());
 app.use('/posts', postsRouter);
 
 app.use(errorHandler);
-
+console.log('app start')
 app.listen(port, () => console.log(`Server running on port ${port}`));
